@@ -49,7 +49,7 @@
                 vm.error = true;
                 return;
             }
-
+            vm.error = false;
             //Get the Triangle Array from Service
             vm.output = BinomialCoeffService.getPascalTriangleRows(vm.rows.value);
         };

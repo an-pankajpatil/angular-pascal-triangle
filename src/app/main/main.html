@@ -1,18 +1,18 @@
 <div class="container">
+    <h3> Pascal Triangle </h3>
     <div class="jumbotron">
         <div class="row">
-            <div class="input-group">
-                <span class="input-group-btn">
-                <button class="btn btn-default" type="button" ng-click="main.showPascalTriangle()">Go!</button>
-              </span>
-                <input type="number" class="form-control" placeholder="Total Rows..." ng-model="main.rows.value" required />
-            </div>
+            <label for="row">Enter No of Rows : </label>
+            <input name="row" type="number" class="form-control" placeholder="Total Rows..." ng-model="main.rows.value" required />
             <div class="alert alert-danger" ng-show="main.error">
                 <p class="error">Please input number greater than 0!</p>
             </div>
-            <div class="pascaltriangle">
-                <p ng-repeat="row in main.output track by $index" ng-style="main.setColor($index)">{{row.join(" ")}}</p>
-            </div>
+        </div>
+        <div class="row">
+            <button class="btn btn-primary" type="button" ng-click="main.showPascalTriangle()">Show Triangle</button>
+        </div>
+        <div class="pascaltriangle">
+            <p ng-repeat="row in main.output track by $index" ng-style="main.setColor($index)">{{row.join(" ")}}</p>
         </div>
     </div>
 </div>
