@@ -36,7 +36,7 @@ To compile the project, you need to have node, gulp and bower installed on your 
 
     gulp serve
 
-	The above command will open the app in the browser with watcher. Any changes made in the source files will be automatically reflected in the app.
+ The above command will open the app in the browser with watcher. Any changes made in the source files will be automatically reflected in the app.
 
 4) To Create Dist build, run the following command
 
