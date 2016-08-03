@@ -9,16 +9,16 @@ To directly run the project, just open the index.html file from the dist folder 
 
 # Source File
 
-App source files are location inside the src directory in root.
+App source files are located inside the src directory in root.
 
     app/index.module.js - Contains app's Angular Module
     app/index.route.js - Contains app's different routing states.
     app/index.scss - Sass file for the project
     app/index.html - apps index.html where all the scripts and styles are injected autmatically.
-
-	app/main/main.controller.js - controller for the Pascal Triangle view
-	app/main/main.html  - Pascal Triangle view
-	app/main.service.js - Pascal Triangle service.
+    
+    app/main/main.controller.js - controller for the Pascal Triangle view
+    app/main/main.html  - Pascal Triangle view
+    app/main.service.js - Pascal Triangle service.
 
 # Compile and Run the Project
 
