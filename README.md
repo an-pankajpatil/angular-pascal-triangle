@@ -5,7 +5,7 @@ Display Pascal Triangle in Angular 1
 # Run The Project
 
 To directly run the project, just open the index.html file from the dist folder in any browser.
-Just input the number of rows you want to display in text box and prese Go button.
+Just input the number of rows you want to display in text box and prese the Show Triangle button.
 
 
 # Source File
